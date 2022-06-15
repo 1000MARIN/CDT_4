@@ -29,8 +29,6 @@ public class MainActivity2 extends AppCompatActivity {
     private ImageView   box_a1;
     private ImageView   box_a2;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
