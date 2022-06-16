@@ -59,8 +59,7 @@ public class MainActivity2 extends AppCompatActivity {
         Handler h6 = new Handler();
         Handler h7 = new Handler();
         Handler h8 = new Handler();
-        Handler h9 = new Handler();
-        Handler h10 = new Handler();
+
 
         h1.postDelayed(new Runnable() {
             @Override
@@ -78,11 +77,11 @@ public class MainActivity2 extends AppCompatActivity {
                 box_bl_5.setVisibility(View.INVISIBLE);
                 box_bl_6.setVisibility(View.INVISIBLE);
 
+                // 문제 정답
                 box_q1.setVisibility(View.INVISIBLE);
                 box_q2.setVisibility(View.INVISIBLE);
                 box_a1.setVisibility(View.INVISIBLE);
                 box_a2.setVisibility(View.INVISIBLE);
-
             }
         }, 2000);
 
@@ -103,6 +102,7 @@ public class MainActivity2 extends AppCompatActivity {
                 box_bl_5.setVisibility(View.INVISIBLE);
                 box_bl_6.setVisibility(View.INVISIBLE);
 
+                // 문제 정답
                 box_q1.setVisibility(View.INVISIBLE);
                 box_q2.setVisibility(View.INVISIBLE);
                 box_a1.setVisibility(View.INVISIBLE);
@@ -126,6 +126,7 @@ public class MainActivity2 extends AppCompatActivity {
                 box_bl_5.setVisibility(View.INVISIBLE);
                 box_bl_6.setVisibility(View.INVISIBLE);
 
+                // 문제 정답
                 box_q1.setVisibility(View.INVISIBLE);
                 box_q2.setVisibility(View.INVISIBLE);
                 box_a1.setVisibility(View.INVISIBLE);
@@ -149,6 +150,7 @@ public class MainActivity2 extends AppCompatActivity {
                 box_bl_5.setVisibility(View.VISIBLE);
                 box_bl_6.setVisibility(View.INVISIBLE);
 
+                // 문제 정답
                 box_q1.setVisibility(View.INVISIBLE);
                 box_q2.setVisibility(View.INVISIBLE);
                 box_a1.setVisibility(View.INVISIBLE);
@@ -172,12 +174,11 @@ public class MainActivity2 extends AppCompatActivity {
                 box_bl_5.setVisibility(View.INVISIBLE);
                 box_bl_6.setVisibility(View.VISIBLE);
 
+                // 문제 정답
                 box_q1.setVisibility(View.INVISIBLE);
                 box_q2.setVisibility(View.INVISIBLE);
                 box_a1.setVisibility(View.INVISIBLE);
                 box_a2.setVisibility(View.INVISIBLE);
-
-
             }
         }, 10000);
 
@@ -197,6 +198,7 @@ public class MainActivity2 extends AppCompatActivity {
                 box_bl_5.setVisibility(View.INVISIBLE);
                 box_bl_6.setVisibility(View.INVISIBLE);
 
+                // 문제 정답
                 box_q1.setVisibility(View.INVISIBLE);
                 box_q2.setVisibility(View.INVISIBLE);
                 box_a1.setVisibility(View.INVISIBLE);
@@ -220,6 +222,7 @@ public class MainActivity2 extends AppCompatActivity {
                 box_bl_5.setVisibility(View.INVISIBLE);
                 box_bl_6.setVisibility(View.INVISIBLE);
 
+                // 문제 정답
                 box_q1.setVisibility(View.INVISIBLE);
                 box_q2.setVisibility(View.INVISIBLE);
                 box_a1.setVisibility(View.INVISIBLE);
@@ -231,109 +234,11 @@ public class MainActivity2 extends AppCompatActivity {
         h8.postDelayed(new Runnable() {
             @Override
             public void run() {
-                box_be_1.setVisibility(View.VISIBLE);
-                box_be_2.setVisibility(View.VISIBLE);
-                box_be_3.setVisibility(View.VISIBLE);
-                box_be_4.setVisibility(View.VISIBLE);
-                box_be_5.setVisibility(View.VISIBLE);
-                box_be_6.setVisibility(View.VISIBLE);
-                box_bl_1.setVisibility(View.INVISIBLE);
-                box_bl_2.setVisibility(View.INVISIBLE);
-                box_bl_3.setVisibility(View.INVISIBLE);
-                box_bl_4.setVisibility(View.INVISIBLE);
-                box_bl_5.setVisibility(View.INVISIBLE);
-                box_bl_6.setVisibility(View.INVISIBLE);
-
-                box_q1.setVisibility(View.VISIBLE);
-                box_q2.setVisibility(View.INVISIBLE);
-                box_a1.setVisibility(View.INVISIBLE);
-                box_a2.setVisibility(View.INVISIBLE);
-
+                Intent intent = new Intent(getApplicationContext(), MainActivity3.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
             }
-        }, 16000);
-
-        h9.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                box_be_1.setVisibility(View.VISIBLE);
-                box_be_2.setVisibility(View.INVISIBLE);
-                box_be_3.setVisibility(View.VISIBLE);
-                box_be_4.setVisibility(View.VISIBLE);
-                box_be_5.setVisibility(View.VISIBLE);
-                box_be_6.setVisibility(View.VISIBLE);
-                box_bl_1.setVisibility(View.INVISIBLE);
-                box_bl_2.setVisibility(View.INVISIBLE);
-                box_bl_3.setVisibility(View.INVISIBLE);
-                box_bl_4.setVisibility(View.INVISIBLE);
-                box_bl_5.setVisibility(View.INVISIBLE);
-                box_bl_6.setVisibility(View.INVISIBLE);
-
-                box_q1.setVisibility(View.VISIBLE);
-                box_q2.setVisibility(View.INVISIBLE);
-                box_a1.setVisibility(View.VISIBLE);
-                box_a2.setVisibility(View.INVISIBLE);
-
-            }
-        }, 19000);
-
-        h10.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                box_be_1.setVisibility(View.VISIBLE);
-                box_be_2.setVisibility(View.VISIBLE);
-                box_be_3.setVisibility(View.VISIBLE);
-                box_be_4.setVisibility(View.VISIBLE);
-                box_be_5.setVisibility(View.VISIBLE);
-                box_be_6.setVisibility(View.VISIBLE);
-                box_bl_1.setVisibility(View.INVISIBLE);
-                box_bl_2.setVisibility(View.INVISIBLE);
-                box_bl_3.setVisibility(View.INVISIBLE);
-                box_bl_4.setVisibility(View.INVISIBLE);
-                box_bl_5.setVisibility(View.INVISIBLE);
-                box_bl_6.setVisibility(View.INVISIBLE);
-
-                box_q1.setVisibility(View.INVISIBLE);
-                box_q2.setVisibility(View.VISIBLE);
-                box_a1.setVisibility(View.INVISIBLE);
-                box_a2.setVisibility(View.INVISIBLE);
-
-            }
-        }, 22000);
-
-        h9.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                box_be_1.setVisibility(View.VISIBLE);
-                box_be_2.setVisibility(View.VISIBLE);
-                box_be_3.setVisibility(View.VISIBLE);
-                box_be_4.setVisibility(View.VISIBLE);
-                box_be_5.setVisibility(View.VISIBLE);
-                box_be_6.setVisibility(View.VISIBLE);
-                box_bl_1.setVisibility(View.INVISIBLE);
-                box_bl_2.setVisibility(View.INVISIBLE);
-                box_bl_3.setVisibility(View.INVISIBLE);
-                box_bl_4.setVisibility(View.INVISIBLE);
-                box_bl_5.setVisibility(View.INVISIBLE);
-                box_bl_6.setVisibility(View.INVISIBLE);
-
-                box_q1.setVisibility(View.INVISIBLE);
-                box_q2.setVisibility(View.VISIBLE);
-                box_a1.setVisibility(View.INVISIBLE);
-                box_a2.setVisibility(View.VISIBLE);
-
-            }
-        }, 25000);
-
-
-
-//        h10.postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                Intent intent = new Intent(getApplicationContext(), MainActivity3.class);
-//                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-//                startActivity(intent);
-//            }
-//        }, 16000);
+        }, 15000);
     }
 
 }
